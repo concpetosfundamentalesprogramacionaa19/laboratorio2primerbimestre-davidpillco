@@ -79,10 +79,10 @@ while(bandera == true){
     
     //Resultado
     if (etotal < sueldo) { 
-    System.out.printf("%s\nEl padre de familia %s le alcanza el dinero"
+    mensajeFinal = String.format ("%s\nEl padre de familia %s le alcanza el dinero"
             + " semanal,para sus gastos.\n ", mensajeFinal,nombre);    
     }else{
-    System.out.printf("%s\nEl padre de familia %s le falta el dinero "
+    mensajeFinal = String.format("%s\nEl padre de familia %s le falta el dinero "
             + "semanal,para sus gastos.\n ", mensajeFinal,nombre);        
     }
     entrada.nextLine();
